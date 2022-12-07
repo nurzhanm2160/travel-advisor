@@ -45,7 +45,7 @@ const List = () => {
             <Grid container spacing={3} className={classes.list}>
                 {places?.map((place, index) => {
                     return <Grid item key={index} xs={12}>
-                        <PlacesDetails />
+                        <PlacesDetails place={place} />
                     </Grid>
                 })}
             </Grid>
