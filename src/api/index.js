@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const URL = 'https://travel-advisor.p.rapidapi.com/hotels/list-in-boundary'
 
-export const getPlacesData = async (sw, ne) => {
+export const getPlacesData = async (sw, ne, type) => {
     try {
         const {data: { data }} = await axios.get(URL, {
             params: {
