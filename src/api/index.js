@@ -10,6 +10,7 @@ export const getPlacesData = async (type,  sw, ne) => {
                 tr_latitude: ne.lat
             },
             headers: {
+                // hided API KEY in Env Variables
                 'X-RapidAPI-Key': process.env.X_RAPID_API_Key,
                 'X-RapidAPI-Host': process.env.X_RAPID_API_HOST
             }
