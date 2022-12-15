@@ -11,8 +11,8 @@ export const getPlacesData = async (type,  sw, ne) => {
             },
             headers: {
                 // hided API KEY in Env Variables
-                'X-RapidAPI-Key': process.env.X_RAPID_API_Key,
-                'X-RapidAPI-Host': process.env.X_RAPID_API_HOST
+                'X-RapidAPI-Key': '11266ebbc9msh0313951ca148de7p1b3ff4jsn5c332cb7092d',
+                'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
             }
         })
 
